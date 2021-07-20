@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'MyWebFont';
+    src:
+    url('./css/Akrobat-Black.woff2') format('woff2'),
+    url('./css/Akrobat-ExtraLight.woff2') format('woff2'),
+    url('./css/Akrobat-Light.woff2') format('woff2'),
+    url('./css/Akrobat-Regular.woff2') format('woff2'),
+    url('./css/Akrobat-SemiBold.woff2') format('woff2'),
+    url('./css/Made-Sunflower.woff2') format('woff2');
+}
