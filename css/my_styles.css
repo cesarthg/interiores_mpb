@@ -30,6 +30,7 @@
     z-index: -1;
     height: 500px;
 }
+/* Estilos para Moderno */
 .m-over {
     position: absolute;
     top: 0px;
@@ -43,6 +44,7 @@
     z-index: -1;
     width: 90vw;
 }
+/* Estilos para Chic */
 .ch-over {
     position: absolute;
     top: 0px;
@@ -55,4 +57,70 @@
     top: 40vh;
     z-index: -1;
     width: 90vw;
+}
+/* Estilos para Tradicionañ */
+.tra-over {
+    position: absolute;
+    top: 0px;
+    z-index: -1;
+    height: 50vh;
+}
+.tra-under {
+    position: absolute;
+    left: 15vh;
+    top: 40vh;
+    z-index: -1;
+    width: 90vw;
+}
+/* Estilos para Industrial */
+.ind-under {
+    position: absolute;
+    left: 5vh;
+    top: 0px;
+    z-index: -1;
+    height: auto;
+    height: 50vh;
+}
+.ind-mid {
+    position: absolute;
+    left: 35vh;
+    top: 30vh;
+    z-index: -2;
+    height: 500px;
+}
+.ind-over {
+    position: absolute;
+    left: 1vh;
+    top: 60vh;
+    z-index: -1;
+    height: 500px;
+}
+/* Estilos para Farmhouse */
+.farm-under {
+    position: absolute;
+    left: 20vh;
+    z-index: -1;
+    height: auto;
+    height: 60vh;
+}
+.farm-over {
+    position: absolute;
+    left: 5vh;
+    top: 40vh;
+    z-index: -1;
+    height: 50vh;
+}
+/* Estilos para Vintage */
+.vintage-over {
+    position: absolute;
+    top: 0px;
+    z-index: -1;
+    height: 60vh;
+}
+.vintage-under {
+    position: absolute;
+    left: 15vh;
+    top: 50vh;
+    z-index: -1;
+    width: 70vw;
 }
