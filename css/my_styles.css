@@ -30,3 +30,29 @@
     z-index: -1;
     height: 500px;
 }
+.m-over {
+    position: absolute;
+    top: 0px;
+    z-index: 1;
+    height: 50vh;
+}
+.m-under {
+    position: absolute;
+    left: 15vh;
+    top: 40vh;
+    z-index: -1;
+    width: 90vw;
+}
+.ch-over {
+    position: absolute;
+    top: 0px;
+    z-index: -1;
+    height: 50vh;
+}
+.ch-under {
+    position: absolute;
+    left: 15vh;
+    top: 40vh;
+    z-index: -1;
+    width: 90vw;
+}
