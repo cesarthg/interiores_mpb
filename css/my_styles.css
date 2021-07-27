@@ -8,7 +8,24 @@
     url('./css/Akrobat-SemiBold.woff2') format('woff2'),
     url('./css/Made-Sunflower.woff2') format('woff2');
 }
-.under {
+/* Estilos para Escandinavo */
+.escan-under {
+    position: absolute;
+    left: 5vh;
+    top: 0px;
+    z-index: -1;
+    height: auto;
+    height: 60vh;
+}
+.escan-over {
+    position: absolute;
+    left: -1vh;
+    top: 50vh;
+    z-index: -1;
+    height: 60vh;
+}
+/* Estilos para Contemporaneo */
+.contempo-under {
     position: absolute;
     left: 20px;
     top: 0px;
@@ -16,14 +33,14 @@
     height: auto;
     height: 600px;
 }
-.mid {
+.contempo-mid {
     position: absolute;
     left: 300px;
     top: 500px;
     z-index: -1;
     height: 500px;
 }
-.over {
+.contempo-over {
     position: absolute;
     left: -10px;
     top: 600px;
