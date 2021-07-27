@@ -8,3 +8,25 @@
     url('./css/Akrobat-SemiBold.woff2') format('woff2'),
     url('./css/Made-Sunflower.woff2') format('woff2');
 }
+.under {
+    position: absolute;
+    left: 20px;
+    top: 0px;
+    z-index: -1;
+    height: auto;
+    height: 600px;
+}
+.mid {
+    position: absolute;
+    left: 300px;
+    top: 500px;
+    z-index: -1;
+    height: 500px;
+}
+.over {
+    position: absolute;
+    left: -10px;
+    top: 600px;
+    z-index: -1;
+    height: 500px;
+}
