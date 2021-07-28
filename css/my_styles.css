@@ -1,12 +1,71 @@
+/* Fuentes empleadas */
 @font-face {
-    font-family: 'MyWebFont';
-    src:
-    url('./css/Akrobat-Black.woff2') format('woff2'),
-    url('./css/Akrobat-ExtraLight.woff2') format('woff2'),
-    url('./css/Akrobat-Light.woff2') format('woff2'),
-    url('./css/Akrobat-Regular.woff2') format('woff2'),
-    url('./css/Akrobat-SemiBold.woff2') format('woff2'),
-    url('./css/Made-Sunflower.woff2') format('woff2');
+    font-family: 'Akrobat Black';
+    src: url('./fonts/AkrobatBlack.woff2') format('woff2'),
+}
+@font-face {
+    font-family: 'Akrobat ExtraLight';
+    src: url('./fonts/AkrobatExtraLight.woff2') format('woff2'),
+}
+@font-face {
+    font-family: 'Akrobat Light';
+    src: url('./fonts/AkrobatLight.woff2') format('woff2'),
+}
+@font-face {
+    font-family: 'Akrobat Regular';
+    src: url('./fonts/AkrobatRegular.woff2') format('woff2'),
+}
+@font-face {
+    font-family: 'Akrobat SemiBold';
+    src: url('./fonts/AkrobatSemiBold.woff2') format('woff2'),
+}
+@font-face {
+    font-family: 'Made Sunflower';
+    src: url('./fonts/MadeSunflower.woff2') format('woff2'),
+}
+/* Pruebas de fuentes */
+h1, h2, .flower, .flower2 {
+    font-family: 'Made Sunflower';
+}
+.flower {
+    color: #F76174;
+}
+.flower2 {
+    color: #fff;
+}
+.txt-intro {
+    font-family: 'Akrobat';
+}
+.txt-super {
+    font-family: 'Akrobat Black';
+    background-color: #F76174;
+}
+.txt-main {
+    font-family: 'Akrobat ExtraLight';
+}
+/* Estilos de Index */
+.intro-img {
+    position: relative;
+    height: 70vh;
+    left: 10vh;
+}
+.aside-h5 {
+    font-family: 'Akrobat Black';
+    background-color: #F76174;
+    color: #FFF;
+}
+.aside-sub-h5 {
+    font-family: 'Akrobat Black';
+}
+.aside-txt {
+    font-family: 'Akrobat SemiBold';
+}
+.aside-txt, .aside-sub-h5 {
+    color: #F76174;
+}
+/* Estilos Aside */
+.aside-div {
+    background-color: #FAB0BA;
 }
 /* Estilos para Escandinavo */
 .escan-under {
@@ -140,4 +199,28 @@
     top: 50vh;
     z-index: -1;
     width: 70vw;
+}
+.btn-custom {
+    padding: 0.9rem 1rem;
+    font-size: 1.75rem;
+    line-height: 1.9;
+    border-radius: 0.7rem;
+}
+.btn-pink {
+    color: #fff;
+    background-color: #F76174;
+    border-color: #F76174;
+  }
+.btn-pink:hover {
+    color: #fff;
+    background-color: #FAB0BA;
+    border-color: #FAB0BA;
+}
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
+    border: 0;
+    border-top: 0.4rem solid #F76174;
 }
