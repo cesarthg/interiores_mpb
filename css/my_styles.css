@@ -24,7 +24,7 @@
     src: url('./fonts/MadeSunflower.woff2') format('woff2'),
 }
 /* Pruebas de fuentes */
-h1, h2, .flower, .flower2 {
+h1, h2, .flower, .flower2, .flower3 {
     font-family: 'Made Sunflower';
 }
 .flower {
@@ -81,30 +81,29 @@ h1, h2, .flower, .flower2 {
     left: -1vh;
     top: 50vh;
     z-index: -1;
-    height: 60vh;
+    height: 65vh;
 }
 /* Estilos para Contemporaneo */
 .contempo-under {
     position: absolute;
-    left: 20px;
+    left: 5vh;
     top: 0px;
     z-index: -1;
-    height: auto;
-    height: 600px;
+    height: 60vh
 }
 .contempo-mid {
     position: absolute;
-    left: 300px;
-    top: 500px;
+    left: 39vh;
+    top: 40vh;
     z-index: -1;
-    height: 500px;
+    height: 50vh;
 }
 .contempo-over {
     position: absolute;
-    left: -10px;
-    top: 600px;
+    left: -1vh;
+    top: 50vh;
     z-index: -1;
-    height: 500px;
+    height: 60vh;
 }
 /* Estilos para Moderno */
 .m-over {
@@ -115,11 +114,11 @@ h1, h2, .flower, .flower2 {
 }
 .m-under {
     position: absolute;
-    left: 15vh;
+    left: 30vh;
     top: 40vh;
     z-index: -1;
-    width: 90vw;
-}
+    height: 70vh;
+    }
 /* Estilos para Chic */
 .ch-over {
     position: absolute;
@@ -223,4 +222,16 @@ hr {
     margin-right: 7rem;
     border: 0;
     border-top: 0.4rem solid #F76174;
+}
+.title-txt{
+    font-family: 'Akrobat Black', sans-serif;
+}
+.article-txt{
+    font-family: 'Akrobat', sans-serif;
+    color: #000;
+}
+hr.separator{
+    margin: 0;
+    margin-top: 3rem;
+	border-top: 0.3rem solid #000000;
 }
