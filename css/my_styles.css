@@ -1,73 +1,109 @@
 /* Fuentes empleadas */
+
 @font-face {
     font-family: 'Akrobat Black';
     src: url('./fonts/AkrobatBlack.woff2') format('woff2'),
 }
+
 @font-face {
     font-family: 'Akrobat ExtraLight';
     src: url('./fonts/AkrobatExtraLight.woff2') format('woff2'),
 }
+
 @font-face {
     font-family: 'Akrobat Light';
     src: url('./fonts/AkrobatLight.woff2') format('woff2'),
 }
+
 @font-face {
     font-family: 'Akrobat Regular';
     src: url('./fonts/AkrobatRegular.woff2') format('woff2'),
 }
+
 @font-face {
     font-family: 'Akrobat SemiBold';
     src: url('./fonts/AkrobatSemiBold.woff2') format('woff2'),
 }
+
 @font-face {
     font-family: 'Made Sunflower';
     src: url('./fonts/MadeSunflower.woff2') format('woff2'),
 }
-/* Pruebas de fuentes */
+
+/* Estilos de fuente */
+
 h1, h2, .flower, .flower2, .flower3 {
-    font-family: 'Made Sunflower';
+    font-family: 'Made Sunflower', Arial, Helvetica, sans-serif;
 }
+
 .flower {
     color: #F76174;
 }
+
 .flower2 {
     color: #fff;
 }
+
+/* Estilos para textos en index.hmtl */
+
 .txt-intro {
     font-family: 'Akrobat';
 }
+
 .txt-super {
-    font-family: 'Akrobat Black';
+    font-family: 'Akrobat Black', Arial, Helvetica, sans-serif;
     background-color: #F76174;
 }
+
 .txt-main {
-    font-family: 'Akrobat ExtraLight';
+    font-family: 'Akrobat ExtraLight', Arial, Helvetica, sans-serif;
 }
-/* Estilos de Index */
+
+/* Estilos para texto del titulo y del articulo que no son index.html */
+
+.title-txt {
+    font-family: 'Akrobat Black', Arial, Helvetica, sans-serif;
+}
+
+.article-txt {
+    font-family: 'Akrobat', Arial, Helvetica, sans-serif;
+    color: #000;
+}
+
+/* Estilos generales de Index */
+
 .intro-img {
     position: relative;
     height: 70vh;
     left: 10vh;
 }
+
+/* Estilos Aside */
+
 .aside-h5 {
-    font-family: 'Akrobat Black';
+    font-family: 'Akrobat Black', Arial, Helvetica, sans-serif;
     background-color: #F76174;
     color: #FFF;
 }
+
 .aside-sub-h5 {
-    font-family: 'Akrobat Black';
+    font-family: 'Akrobat Black', Arial, Helvetica, sans-serif;
 }
+
 .aside-txt {
-    font-family: 'Akrobat SemiBold';
+    font-family: 'Akrobat SemiBold', Arial, Helvetica, sans-serif;
 }
+
 .aside-txt, .aside-sub-h5 {
     color: #F76174;
 }
-/* Estilos Aside */
+
 .aside-div {
     background-color: #FAB0BA;
 }
+
 /* Estilos para Escandinavo */
+
 .escan-under {
     position: absolute;
     left: 5vh;
@@ -76,6 +112,7 @@ h1, h2, .flower, .flower2, .flower3 {
     height: auto;
     height: 60vh;
 }
+
 .escan-over {
     position: absolute;
     left: -1vh;
@@ -83,7 +120,9 @@ h1, h2, .flower, .flower2, .flower3 {
     z-index: -1;
     height: 65vh;
 }
+
 /* Estilos para Contemporaneo */
+
 .contempo-under {
     position: absolute;
     left: 5vh;
@@ -91,6 +130,7 @@ h1, h2, .flower, .flower2, .flower3 {
     z-index: -1;
     height: 60vh
 }
+
 .contempo-mid {
     position: absolute;
     left: 39vh;
@@ -98,6 +138,7 @@ h1, h2, .flower, .flower2, .flower3 {
     z-index: -1;
     height: 50vh;
 }
+
 .contempo-over {
     position: absolute;
     left: -1vh;
@@ -105,49 +146,60 @@ h1, h2, .flower, .flower2, .flower3 {
     z-index: -1;
     height: 60vh;
 }
+
 /* Estilos para Moderno */
+
 .m-over {
     position: absolute;
     top: 0px;
     z-index: 1;
     height: 50vh;
 }
+
 .m-under {
     position: absolute;
     left: 30vh;
     top: 40vh;
     z-index: -1;
     height: 70vh;
-    }
+}
+
 /* Estilos para Chic */
+
 .ch-over {
     position: absolute;
     top: 0px;
     z-index: -1;
-    height: 50vh;
+    height: 60vh;
 }
+
 .ch-under {
     position: absolute;
-    left: 15vh;
+    left: 20vh;
     top: 40vh;
     z-index: -1;
-    width: 90vw;
+    height: 80vh;
 }
-/* Estilos para Tradicionañ */
+
+/* Estilos para Tradiciona o Clasico */
+
 .tra-over {
     position: absolute;
     top: 0px;
     z-index: -1;
     height: 50vh;
 }
+
 .tra-under {
     position: absolute;
-    left: 15vh;
+    left: 20vh;
     top: 40vh;
     z-index: -1;
-    width: 90vw;
+    height: 85vh;
 }
+
 /* Estilos para Industrial */
+
 .ind-under {
     position: absolute;
     left: 5vh;
@@ -156,6 +208,7 @@ h1, h2, .flower, .flower2, .flower3 {
     height: auto;
     height: 50vh;
 }
+
 .ind-mid {
     position: absolute;
     left: 35vh;
@@ -163,6 +216,7 @@ h1, h2, .flower, .flower2, .flower3 {
     z-index: -2;
     height: 500px;
 }
+
 .ind-over {
     position: absolute;
     left: 1vh;
@@ -170,7 +224,9 @@ h1, h2, .flower, .flower2, .flower3 {
     z-index: -1;
     height: 500px;
 }
+
 /* Estilos para Farmhouse */
+
 .farm-under {
     position: absolute;
     left: 20vh;
@@ -178,6 +234,7 @@ h1, h2, .flower, .flower2, .flower3 {
     height: auto;
     height: 60vh;
 }
+
 .farm-over {
     position: absolute;
     left: 5vh;
@@ -185,13 +242,16 @@ h1, h2, .flower, .flower2, .flower3 {
     z-index: -1;
     height: 50vh;
 }
+
 /* Estilos para Vintage */
+
 .vintage-over {
     position: absolute;
     top: 0px;
     z-index: -1;
     height: 60vh;
 }
+
 .vintage-under {
     position: absolute;
     left: 15vh;
@@ -199,22 +259,37 @@ h1, h2, .flower, .flower2, .flower3 {
     z-index: -1;
     width: 70vw;
 }
+
+/* Estilos de Boton Grande Pink */
+
 .btn-custom {
     padding: 0.9rem 1rem;
-    font-size: 1.75rem;
+    font-size: 1.55rem;
     line-height: 1.9;
     border-radius: 0.7rem;
 }
+
+.btn-custom2 {
+    padding: 0.5rem 0.5rem;
+    font-size: 1.5rem;
+    line-height: 1.9;
+    border-radius: 0.9rem;
+}
+
 .btn-pink {
     color: #fff;
     background-color: #F76174;
     border-color: #F76174;
-  }
+}
+
 .btn-pink:hover {
     color: #fff;
     background-color: #FAB0BA;
     border-color: #FAB0BA;
 }
+
+/* Estilos para lineas horizontales */
+
 hr {
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -223,15 +298,12 @@ hr {
     border: 0;
     border-top: 0.4rem solid #F76174;
 }
-.title-txt{
-    font-family: 'Akrobat Black', sans-serif;
-}
-.article-txt{
-    font-family: 'Akrobat', sans-serif;
-    color: #000;
-}
-hr.separator{
+
+hr.separator {
     margin: 0;
     margin-top: 3rem;
-	border-top: 0.3rem solid #000000;
+    border-top: 0.3rem solid #F76174;
+}
+.flower3{
+    font-size: 1.1rem;
 }

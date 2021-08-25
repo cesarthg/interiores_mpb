@@ -1,0 +1,88 @@
+section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    color: #3E3D3B;
+    scroll-snap-align: start;
+}
+.container-flex {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+}
+.one {
+    background: #ffffff;
+}
+.two {
+    background: #326581;
+}
+/* .four {
+    background: #F6EEDA;
+} */
+.five{
+    background: #FAB0BA;
+}
+section.row {
+    height: 100vh;
+}
+/* Seccion de estilos para imagenes */
+.img-under1{
+    position: absolute;
+    left: 5vh;
+    top: -5vh;
+    z-index: -1;
+    height: 55vh
+}
+
+.img-mid1{
+    position: absolute;
+    left: 34vh;
+    top: 17vh;
+    z-index: -1;
+    height: 44vh;
+}
+.img-top1{
+    position: absolute;
+    left: 3vh;
+    top: 32vh;
+    z-index: -1;
+    height: 47vh;
+}
+.img-top2{
+    position: absolute;
+    left: 1vh;
+    top: 32vh;
+    height: 47vh;
+}
+.img-under2{
+    position: absolute;
+    left: 5vh;
+    top: -5vh;
+    z-index: -1;
+    height: 55vh
+}
+.img-under3{
+    position: absolute;
+    left: 5vh;
+    top: -5vh;
+    z-index: -1;
+    height: 55vh
+}
+
+.img-mid3{
+    position: absolute;
+    left: 34vh;
+    top: 17vh;
+    z-index: -1;
+    height: 44vh;
+}
+.img-top3{
+    position: absolute;
+    left: 3vh;
+    top: 32vh;
+    z-index: -1;
+    height: 47vh;
+}
+img-section {
+    height: 10vh;
+}
