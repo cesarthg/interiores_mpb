@@ -1,0 +1,88 @@
+/* Fuentes Usadas */
+@font-face {
+    font-family: 'Akrobat Black';
+    src: url('./fonts/AkrobatBlack.woff2') format('woff2'),
+}
+@font-face {
+    font-family: 'Akrobat ExtraLight';
+    src: url('./fonts/AkrobatExtraLight.woff2') format('woff2'),
+}
+@font-face {
+    font-family: 'Akrobat Light';
+    src: url('./fonts/AkrobatLight.woff2') format('woff2'),
+}
+@font-face {
+    font-family: 'Akrobat Regular';
+    src: url('./fonts/AkrobatRegular.woff2') format('woff2'),
+}
+@font-face {
+    font-family: 'Akrobat SemiBold';
+    src: url('./fonts/AkrobatSemiBold.woff2') format('woff2'),
+}
+@font-face {
+    font-family: 'Made Sunflower';
+    src: url('./fonts/MadeSunflower.woff2') format('woff2'),
+}
+/* Estilos de texto */
+.article-txt {
+    font-family: 'Akrobat', Arial, Helvetica, sans-serif;
+    color: #000;
+}
+/* Estilo de h1 */
+.h1-txt, .p-txt {
+    font-family: 'Made Sunflower', Arial, Helvetica, sans-serif;
+}
+.p-txt {
+    font-size: 1.1rem;    
+}
+
+/* Separador */
+hr.separator {
+    border-top: 0.2rem solid #F76174;
+}
+/* Botón */
+.btn-interiores {
+    padding: 0.7rem;
+    font-size: 1.5rem;
+    line-height: 1.9;
+    border-radius: 0.7rem;
+    color: #fff;
+    background-color: #F76174;
+    border-color: #F76174;
+    font-family: 'Made Sunflower', Arial, Helvetica, sans-serif;
+}
+.btn-interiores:hover {
+    color: #ffffff;
+    background-color: #FAB0BA;
+    border-color: #FAB0BA;
+}
+/* Media Query */
+@media (max-width: 991.98px) {
+    .content {
+        padding: 4rem 0;
+    }
+    .img-trend {
+        padding: 1.25rem;
+    }
+   }
+/* Menu lateral */
+.logo-img {
+    height: 60px;
+}
+.text-list {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    font-size: large;
+}
+.itemside {
+    display: block;
+    margin: 1.2rem 0;
+    font-family: 'Akrobat', sans-serif
+}
+.border-right {
+    border-right: 1px solid #F76174;
+}
+.myfooter {
+    height: 5vh;
+}

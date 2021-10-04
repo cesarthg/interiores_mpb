@@ -1,0 +1,53 @@
+/* Estilos de fuente */
+
+h2, .flower, .flower2, .flower3 {
+    font-family: 'Made Sunflower', Arial, Helvetica, sans-serif;
+}
+
+.flower {
+    color: #F76174;
+}
+
+.flower2 {
+    color: #fff;
+}
+
+/* Estilos para textos en index.hmtl */
+
+.txt-intro {
+    font-family: 'Akrobat';
+}
+
+.txt-super {
+    font-family: 'Akrobat Black', Arial, Helvetica, sans-serif;
+    background-color: #F76174;
+}
+
+.txt-main {
+    font-family: 'Akrobat ExtraLight', Arial, Helvetica, sans-serif;
+}
+
+/* Estilos para texto del titulo y del articulo que no son index.html */
+
+.title-txt {
+    font-family: 'Akrobat', Arial, Helvetica, sans-serif;
+}
+
+
+.flower3{
+    font-size: 1.1rem;
+}
+
+/* Estilos para section */
+/* section.rollup {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    color: #3E3D3B;
+    scroll-snap-align: start;
+}
+.container-flex {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+} */
