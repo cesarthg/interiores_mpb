@@ -78,7 +78,7 @@ hr.separator {
 .itemside {
     display: block;
     margin: 1.2rem 0;
-    font-family: 'Akrobat', sans-serif
+    font-family: 'Akrobat', sans-serif;
 }
 .border-right {
     border-right: 1px solid #F76174;
@@ -103,11 +103,12 @@ hr.separator {
     border-color: #FAB0BA;
 }
 /* Profile Card style */
-
+.profile-name{
+    font-family: 'Made Sunflower', sans-serif;
+}
 .profile-card {
-    max-width: 200px;
-    max-height: 500px;
-    background-color: #fff;
+    max-width: 300px;
+    max-height: 400px;
     box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
     background-position: center;
     overflow:hidden;
@@ -121,11 +122,60 @@ hr.separator {
 }
 .profile-card .profile-name {
     position: absolute;
-    left: 30px;
+    left: 20px;
     bottom: 20px;
-    font-size: 20px;
+    font-size: 1.5rem;
     color: #fff;
+    transition: all linear 0.25s;
+    /* text-shadow: 0px 2px 2px rgba(255, 255, 255, 0.4);  */
+    
 }
 .profile-card:hover img {
     filter: grayscale(100);
+    border: #F76174 2px solid;
+}
+.card-text {
+    text-decoration: none;
+    color: rgb(172, 166, 166);
+    font-family: 'Akrobat', sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    
+    
+}
+.profile-card:hover .profile-name{
+    bottom: 3rem;
+}
+
+/* Icono Whatsapp */
+.btn-wsp {
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 30px;
+    right: 30px;
+    background: #34d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+    z-index: 100;
+}
+.btn-wsp:hover {
+    text-decoration: none;
+    color: #34d366;
+    background: #fff;
+}
+.profile-card-lg {
+    max-width: 100%;
+    max-height: 300px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    background-position: center;
+    overflow:hidden;
+    position: relative;
+    margin: 10px auto;
+    cursor: pointer;
+    border-radius: 8px;
 }

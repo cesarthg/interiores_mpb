@@ -2,5 +2,6 @@
     "auto-rename-tag.activationOnLanguage": [
     
         "*"
-    ]
+    ],
+    "livePreview.defaultPreviewPath": "/index.html"
 }
