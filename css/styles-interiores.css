@@ -132,7 +132,7 @@ hr.separator {
 }
 .profile-card:hover img {
     filter: grayscale(100);
-    border: #F76174 2px solid;
+    
 }
 .card-text {
     text-decoration: none;
