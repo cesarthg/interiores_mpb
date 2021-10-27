@@ -30,6 +30,7 @@
             <div class="col-lg-2 d-none d-lg-block border-right">
                 <div class="d-flex mt-5">
                     <ul class="list-unstyled align-self-center mx-auto">
+                        <li><a href="intro.php" class="itemside text-list">Introducción</a></li>
                         <li><a href="contemporaneo.php" class="itemside text-list">Contemporáneo</a></li>
                         <li><a href="country_chic.php" class="itemside text-list">Country Chic</a></li>
                         <li><a href="escandinavo.php" class="itemside text-list">Escandiavo</a></li>
