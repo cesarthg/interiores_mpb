@@ -179,3 +179,13 @@ hr.separator {
     cursor: pointer;
     border-radius: 8px;
 }
+.plan-card {
+    background-color: #FAB0BA;
+}
+.h4-esp {
+    background: #F76174;
+}
+.h2-esp {
+    color: #F76174;
+}
+/* F76174 */
