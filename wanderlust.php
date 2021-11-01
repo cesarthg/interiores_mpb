@@ -43,6 +43,6 @@ include_once("header.php")
     </section>
 </div>
 <div class="col-lg-4">
-    <img class="img-fluid img-trend" src="./img/vintage_1.jpg" alt="Diseño de baño tradicional.">
+    <img class="img-fluid img-trend" src="./img/wunderlust_1.jpg" alt="Diseño de baño tradicional.">
 </div>
 <?php include_once("footer.php") ?>
